@@ -1,0 +1,2 @@
+# CANSM---contest---Debiasing-and-Counterfactual-Interest-Modeling-for-News-Recommendation
+特别说明：本项目用于划分train/dev/test的是mind-small-train， 和 chunk.py! 用于lgb以外所有模型！ 对于希望复现本项目 lgb 的朋友， 使用data_process.py自行展开数据集， 使用features.py自行构建特征数据集，并用 predict_test_online.py 流式预测官方的large test 并提交至微软官网!vec.py 用于文本向量化。vec.py和chunk.py的结果已提交至data/process、embeddings，train_xx_xx.py对应6个训练代码， 只需修改文件路径可在cpu上跑， 只需要 1 - 2 h。开放训练好的模型至models/。 论文将在适当时机开放! 以免不良法律后果!
